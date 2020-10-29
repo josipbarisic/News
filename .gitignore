@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 /app/src/main/java/com/barisic/news/util/KeyGenerator.kt
+/gradle/
+/app/build/
+/.idea/
