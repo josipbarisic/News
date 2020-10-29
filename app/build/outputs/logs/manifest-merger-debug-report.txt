@@ -1,0 +1,326 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.databinding:databinding-adapters:4.0.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6f6d2380b6a21f5e4b0ffdfcac687374\databinding-adapters-4.0.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.0.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\41aaaabbf446c1d6527b4b732f650b9e\databinding-runtime-4.0.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\94fa875abe2bf1737ffbddd888cb7fd3\navigation-fragment-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\e7a3cc4775579d538d2249903d250253\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\a83b180bb8a57fb287dd316dbc2d3271\navigation-ui-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\475f8bdf32490d02f426d4f839f6eeb8\navigation-runtime-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\8d7cad6f131ebe546e07a338c1eae324\navigation-common-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3ca46be26b316183bc83f694145af179\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0de55d84199a4c24756bd4a78efc1c11\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-ktx:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\aa397f3aa375623f7f79b079c08594c4\jetified-room-ktx-2.2.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6f0e6624c952e1ac17eaf9c419b2a75a\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\359d3474096d86a38251f576284df71e\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [org.koin:koin-androidx-ext:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d1c817947999349138300f87698bab44\jetified-koin-androidx-ext-2.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\2fff2e5a8342442468f5f7480f72f92e\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\e1f4df9ec511314ac44e12e83053ef69\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [org.koin:koin-android:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\342b9160a67bc34eb863bf683def8964\jetified-koin-android-2.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\a70ccd6bde02a9246d2fb9efd538fac0\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.3] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d6d70ed1ec5315c4b395e8fcce285839\constraintlayout-2.0.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\a541551b3006b352739eb213e56115f5\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\fd3c2164c55dc11ea8b7a34a237597cb\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9f8c6bf6d6cfede505145b0a0a600913\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\658d36fb919e60e5724bb85925202a33\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\afb4bdf12725ae33696c68357c3b0fed\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3a885d5fb0478f9d15beaa85949e5585\jetified-viewbinding-4.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\cc06215a37ebb899bc6b994de940135a\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\1a935625b8c1a0c0813bf27e92631210\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\842142e74885c9422100376a4e299f9d\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\4df444dff12f49e85d152f060cc44987\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3025a18289c360946f5a37cfd5f70634\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d32ff325bf91ab00c70ef6a44bb62388\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6f8c5a0bba4200286c903fa1a6dbbbd3\navigation-fragment-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ff7cb4a1d5c09a278dd4ea6ca899add1\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3a077b87d6d228ca64a0eb5ad93f4f24\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\942f312b80e1e7619d0a4c60f676210b\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7b74a721f451896224dc36e5725764f6\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ba76f1e89e33bd24d33ee963f5fa5a72\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6ddb437786cce3bf021c9092b7469609\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\fc31f1ba1e0919b4887c8f25735e7dcb\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6df3662a28be36077d555b905f533a37\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\e7ff1863608185737296bd15d2238989\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\65dd5c9afaf327f8f901c8ccc8f97025\drawerlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\659a5d00a7684914eba998f6dcde3ad5\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\b8fb1d845b1c4cc6f6f9c201da3ba372\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\fd1a3587cc44fa1c89260982679b7d26\navigation-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7864de7e08927db1530550b5c4ee4ffe\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\809f4d752eb5db2c89809b1bc2c53d7b\navigation-common-2.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\26b4bc64c2039ee44ef16ef8ddd6a51c\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d160ce36b30641588df76a38b6f1e6a5\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\4c6f324eabd4efdf01c45e025f6f1a51\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0336836fa8836b626caf89b408b1cd40\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\96a60cd3983d03499f93e684ee197f15\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\37eb1bd873fc3f9b3b35536a5a64648e\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\1e238a5e1ccd943ce6cfc9b51caf6bcd\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\4ad254c760abca231626fe43def313c6\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\11d27e721a185c58cee5158adca79a1e\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7bc37b7780771b866d8e7a020ee86318\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0bd619628a3b98e7ebbe43e99831f5f6\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7c7c3389a33fcc41855f0770374ef171\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\bde897b092ad39a4c70993a06cbec95f\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\b0aba59caa2786e7632fe3de918f10a4\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\016eb7fedc3eabc31b317e685a8006c4\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\5dcea2ce1786a846ff144c6c1ac78b8d\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0cfd83a55a044c092e210101824d141a\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\1e8fb717889bc8cf9bdbc867f69a7522\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:7:5-23:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [org.koin:koin-androidx-ext:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d1c817947999349138300f87698bab44\jetified-koin-androidx-ext-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-ext:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d1c817947999349138300f87698bab44\jetified-koin-androidx-ext-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\2fff2e5a8342442468f5f7480f72f92e\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\2fff2e5a8342442468f5f7480f72f92e\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\e1f4df9ec511314ac44e12e83053ef69\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\e1f4df9ec511314ac44e12e83053ef69\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.3] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d6d70ed1ec5315c4b395e8fcce285839\constraintlayout-2.0.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.3] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d6d70ed1ec5315c4b395e8fcce285839\constraintlayout-2.0.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\fd3c2164c55dc11ea8b7a34a237597cb\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\fd3c2164c55dc11ea8b7a34a237597cb\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\afb4bdf12725ae33696c68357c3b0fed\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\afb4bdf12725ae33696c68357c3b0fed\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:11:5-17:19
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:11:5-17:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d32ff325bf91ab00c70ef6a44bb62388\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d32ff325bf91ab00c70ef6a44bb62388\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.3.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\26b4bc64c2039ee44ef16ef8ddd6a51c\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\26b4bc64c2039ee44ef16ef8ddd6a51c\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\4c6f324eabd4efdf01c45e025f6f1a51\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\4c6f324eabd4efdf01c45e025f6f1a51\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\26b4bc64c2039ee44ef16ef8ddd6a51c\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:10:9-59
+	android:roundIcon
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:13:9-51
+	android:icon
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:11:9-46
+	android:allowBackup
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:8:9-28
+activity#com.barisic.news.view.activities.MainActivity
+ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:16:19-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.0.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6f6d2380b6a21f5e4b0ffdfcac687374\databinding-adapters-4.0.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.0.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6f6d2380b6a21f5e4b0ffdfcac687374\databinding-adapters-4.0.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\41aaaabbf446c1d6527b4b732f650b9e\databinding-runtime-4.0.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.0.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\41aaaabbf446c1d6527b4b732f650b9e\databinding-runtime-4.0.2\AndroidManifest.xml:22:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\94fa875abe2bf1737ffbddd888cb7fd3\navigation-fragment-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\94fa875abe2bf1737ffbddd888cb7fd3\navigation-fragment-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\e7a3cc4775579d538d2249903d250253\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\e7a3cc4775579d538d2249903d250253\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\a83b180bb8a57fb287dd316dbc2d3271\navigation-ui-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\a83b180bb8a57fb287dd316dbc2d3271\navigation-ui-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\475f8bdf32490d02f426d4f839f6eeb8\navigation-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\475f8bdf32490d02f426d4f839f6eeb8\navigation-runtime-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\8d7cad6f131ebe546e07a338c1eae324\navigation-common-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\8d7cad6f131ebe546e07a338c1eae324\navigation-common-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3ca46be26b316183bc83f694145af179\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3ca46be26b316183bc83f694145af179\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0de55d84199a4c24756bd4a78efc1c11\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0de55d84199a4c24756bd4a78efc1c11\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-ktx:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\aa397f3aa375623f7f79b079c08594c4\jetified-room-ktx-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\aa397f3aa375623f7f79b079c08594c4\jetified-room-ktx-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6f0e6624c952e1ac17eaf9c419b2a75a\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6f0e6624c952e1ac17eaf9c419b2a75a\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\359d3474096d86a38251f576284df71e\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\359d3474096d86a38251f576284df71e\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-ext:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d1c817947999349138300f87698bab44\jetified-koin-androidx-ext-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-ext:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d1c817947999349138300f87698bab44\jetified-koin-androidx-ext-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\2fff2e5a8342442468f5f7480f72f92e\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-viewmodel:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\2fff2e5a8342442468f5f7480f72f92e\jetified-koin-androidx-viewmodel-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\e1f4df9ec511314ac44e12e83053ef69\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-androidx-scope:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\e1f4df9ec511314ac44e12e83053ef69\jetified-koin-androidx-scope-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\342b9160a67bc34eb863bf683def8964\jetified-koin-android-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [org.koin:koin-android:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\342b9160a67bc34eb863bf683def8964\jetified-koin-android-2.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\a70ccd6bde02a9246d2fb9efd538fac0\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\a70ccd6bde02a9246d2fb9efd538fac0\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.3] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d6d70ed1ec5315c4b395e8fcce285839\constraintlayout-2.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.3] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d6d70ed1ec5315c4b395e8fcce285839\constraintlayout-2.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\a541551b3006b352739eb213e56115f5\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\a541551b3006b352739eb213e56115f5\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\fd3c2164c55dc11ea8b7a34a237597cb\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\fd3c2164c55dc11ea8b7a34a237597cb\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9f8c6bf6d6cfede505145b0a0a600913\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9f8c6bf6d6cfede505145b0a0a600913\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\658d36fb919e60e5724bb85925202a33\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\658d36fb919e60e5724bb85925202a33\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\afb4bdf12725ae33696c68357c3b0fed\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\afb4bdf12725ae33696c68357c3b0fed\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:7:5-9:41
+MERGED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3a885d5fb0478f9d15beaa85949e5585\jetified-viewbinding-4.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.0.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3a885d5fb0478f9d15beaa85949e5585\jetified-viewbinding-4.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\cc06215a37ebb899bc6b994de940135a\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\cc06215a37ebb899bc6b994de940135a\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\1a935625b8c1a0c0813bf27e92631210\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\1a935625b8c1a0c0813bf27e92631210\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\842142e74885c9422100376a4e299f9d\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\842142e74885c9422100376a4e299f9d\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\4df444dff12f49e85d152f060cc44987\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\4df444dff12f49e85d152f060cc44987\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3025a18289c360946f5a37cfd5f70634\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3025a18289c360946f5a37cfd5f70634\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d32ff325bf91ab00c70ef6a44bb62388\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d32ff325bf91ab00c70ef6a44bb62388\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6f8c5a0bba4200286c903fa1a6dbbbd3\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6f8c5a0bba4200286c903fa1a6dbbbd3\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ff7cb4a1d5c09a278dd4ea6ca899add1\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ff7cb4a1d5c09a278dd4ea6ca899add1\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3a077b87d6d228ca64a0eb5ad93f4f24\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\3a077b87d6d228ca64a0eb5ad93f4f24\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\942f312b80e1e7619d0a4c60f676210b\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\942f312b80e1e7619d0a4c60f676210b\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7b74a721f451896224dc36e5725764f6\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7b74a721f451896224dc36e5725764f6\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ba76f1e89e33bd24d33ee963f5fa5a72\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ba76f1e89e33bd24d33ee963f5fa5a72\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6ddb437786cce3bf021c9092b7469609\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6ddb437786cce3bf021c9092b7469609\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\fc31f1ba1e0919b4887c8f25735e7dcb\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\fc31f1ba1e0919b4887c8f25735e7dcb\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6df3662a28be36077d555b905f533a37\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\6df3662a28be36077d555b905f533a37\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\e7ff1863608185737296bd15d2238989\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\e7ff1863608185737296bd15d2238989\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\65dd5c9afaf327f8f901c8ccc8f97025\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\65dd5c9afaf327f8f901c8ccc8f97025\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\659a5d00a7684914eba998f6dcde3ad5\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\659a5d00a7684914eba998f6dcde3ad5\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\b8fb1d845b1c4cc6f6f9c201da3ba372\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\b8fb1d845b1c4cc6f6f9c201da3ba372\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\fd1a3587cc44fa1c89260982679b7d26\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\fd1a3587cc44fa1c89260982679b7d26\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7864de7e08927db1530550b5c4ee4ffe\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7864de7e08927db1530550b5c4ee4ffe\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\809f4d752eb5db2c89809b1bc2c53d7b\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\809f4d752eb5db2c89809b1bc2c53d7b\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\26b4bc64c2039ee44ef16ef8ddd6a51c\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\26b4bc64c2039ee44ef16ef8ddd6a51c\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d160ce36b30641588df76a38b6f1e6a5\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\d160ce36b30641588df76a38b6f1e6a5\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\4c6f324eabd4efdf01c45e025f6f1a51\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\4c6f324eabd4efdf01c45e025f6f1a51\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0336836fa8836b626caf89b408b1cd40\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0336836fa8836b626caf89b408b1cd40\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\96a60cd3983d03499f93e684ee197f15\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\96a60cd3983d03499f93e684ee197f15\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\37eb1bd873fc3f9b3b35536a5a64648e\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\37eb1bd873fc3f9b3b35536a5a64648e\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\1e238a5e1ccd943ce6cfc9b51caf6bcd\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\1e238a5e1ccd943ce6cfc9b51caf6bcd\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\4ad254c760abca231626fe43def313c6\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\4ad254c760abca231626fe43def313c6\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\11d27e721a185c58cee5158adca79a1e\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\11d27e721a185c58cee5158adca79a1e\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7bc37b7780771b866d8e7a020ee86318\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7bc37b7780771b866d8e7a020ee86318\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0bd619628a3b98e7ebbe43e99831f5f6\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0bd619628a3b98e7ebbe43e99831f5f6\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7c7c3389a33fcc41855f0770374ef171\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\7c7c3389a33fcc41855f0770374ef171\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\bde897b092ad39a4c70993a06cbec95f\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\bde897b092ad39a4c70993a06cbec95f\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\b0aba59caa2786e7632fe3de918f10a4\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\b0aba59caa2786e7632fe3de918f10a4\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\016eb7fedc3eabc31b317e685a8006c4\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\016eb7fedc3eabc31b317e685a8006c4\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\5dcea2ce1786a846ff144c6c1ac78b8d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\5dcea2ce1786a846ff144c6c1ac78b8d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0cfd83a55a044c092e210101824d141a\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\0cfd83a55a044c092e210101824d141a\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\1e8fb717889bc8cf9bdbc867f69a7522\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\1e8fb717889bc8cf9bdbc867f69a7522\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+provider#net.grandcentrix.tray.provider.TrayContentProvider
+ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:12:9-16:44
+	android:authorities
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:14:13-56
+	android:multiprocess
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:16:13-41
+	android:exported
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:13:13-78

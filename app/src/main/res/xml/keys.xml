@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apiKeys">
+        38fbf5c450684e339b0e300b7bd7f8ea,
+        7a1b67b3a1de4bdfa45152a4b7e6cb1f" ,
+        1166e61781ca412c992eaa0e9ea2d6e1" ,
+        7f54b20d117a4e6593c4bd1c5ad5f595" ,
+        0bf1e62cd9114e1e97b3405dc10ad965" ,
+
+        1389fda813e64ebba835f00d844e5883" ,
+        a0c52b3b54804583a152e93dfb08685a" ,
+        89ceb0cc025241379a2b1f72f428074f" ,
+        aa3bb6b65477480587655a048a18a195" ,
+        6c2a05fd3370408ea6ce596f1b097115" ,
+
+        1672ddff93104a7d9953a2693b0bb513" ,
+        89129a72bc4943e7b88c83e75559ed21" ,
+        c721e313af9b4a0b8ac9d562c7fbfd94" ,
+        b6cca1572e3f46ab997d52fa4ca3df5f" ,
+        9e9cee4351424e549ea1dd40bc4bcc46" ,
+
+        e8cdd451d02a4e0987c803f90256f5c2" ,
+        60a8216592b84a74b832ba6903a4b619" ,
+        d9b95d3103bc4362b1c89dfc24bf0db3" ,
+        9a2d015ce34c4e418c55bad669e6c27f" ,
+        03cfa9e97c2e4b67b5e04578cfccdc28" ,
+
+        4bda5519457f49a8964814d6153259ab" ,
+        dddaf153653246f5966a83a1357a3af7" ,
+        0ed766bf36e84e47a508442fa0f36fce" ,
+        bfd2514b89d74ae793dd5748904bc7d6" ,
+        930e0b1d73e14c85be2ef570dffbb269" ,
+
+        67be8049f42f4d329e7a45d57d0e4b3c" ,
+        b9368e014fb548b2b78dc23fd3e6b2db" ,
+        58d2d61b1686447db1abe3ba31a45567" ,
+        36c867848e604586b99b114b80428e80" ,
+        ba5a41197f874359a3fec89a4660cd60" ,
+
+        d52af70f03b74b7b975593efe997e787" ,
+        1f5c713a1537498da23911fb76f5cad3" ,
+        7e99c20ee039459dae2eb90a47ba26c2" ,
+        5005257ced1e40a7acd50195cbfa2104" ,
+        251f2752a0f04f4c8090a7247ce00e18" ,
+
+        fbd4f4980f6d40f2aebd2cbe9f039d73" ,
+        c4bb082f532c42278034818238cdba42" ,
+        aa7201e962884b56a1cf51eb20f40644" ,
+        47478d366070413eba241e7125f749cf" ,
+        2ebd1b0d190d4647b9e10a06510c74c2" ,
+
+        5884f9d29d884898b3a21cfc07242653" ,
+        4f44ea1af0c3463ea233aa9ae1f21098" ,
+        37c748e656444715a79d792a6fc17a16" ,
+        8c64195520d24844897918deb4cf49bf" ,
+        0504e59b7907469aa050dc7e148b2fd2" ,
+
+        5283714e634e45e1bfa0f9830de61366" ,
+        f6e1f10b59b34562b8b7bc07ec5cbd4b" ,
+        0cd36da496fd4e499b3598e4e09bf31a" ,
+        48968c825d76489da9230a96e28c2d2e" ,
+        57df9e738d7a4133819925c42c1013da" ,
+    </string-array>
+</resources>

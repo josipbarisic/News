@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">News</string>
+
+    <!--  NAVIGATION  -->
+    <string name="my_news_item">My News</string>
+    <string name="sources_item">Sources</string>
+    <string name="search_item">Search</string>
+    <string name="favorites_item">Favorites</string>
+
+</resources>

@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.barisic.news"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:7:5-23:19
+14        android:name="com.barisic.news.App"
+14-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:8:9-28
+15        android:allowBackup="true"
+15-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.2] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\26b4bc64c2039ee44ef16ef8ddd6a51c\core-1.3.2\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:fullBackupContent="@xml/backup_descriptor"
+18-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:10:9-59
+19        android:icon="@drawable/ic_news_logo"
+19-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:11:9-46
+20        android:label="@string/app_name"
+20-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@drawable/ic_news_logo"
+21-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:13:9-51
+22        android:supportsRtl="true"
+22-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:15:9-40
+25        <activity android:name="com.barisic.news.view.activities.MainActivity" >
+25-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:16:9-22:20
+25-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:16:19-63
+26            <intent-filter>
+26-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:18:17-69
+27-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:20:17-77
+29-->D:\AndroidStudioApps\News\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+34            android:name="com.squareup.picasso.PicassoProvider"
+34-->[com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+35            android:authorities="com.barisic.news.com.squareup.picasso"
+35-->[com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+36            android:exported="false" />
+36-->[com.squareup.picasso:picasso:2.71828] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\287b9e17b921ba4303ce581ff8336f03\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+37
+38        <service
+38-->[androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+39            android:name="androidx.room.MultiInstanceInvalidationService"
+39-->[androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+40            android:directBootAware="true"
+40-->[androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+41            android:exported="false" />
+41-->[androidx.room:room-runtime:2.2.5] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\9507ccf9706ff9560abd2833e129f2b1\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+42
+43        <provider
+43-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:12:9-16:44
+44            android:name="net.grandcentrix.tray.provider.TrayContentProvider"
+44-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:13:13-78
+45            android:authorities="com.barisic.news.tray"
+45-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:14:13-56
+46            android:exported="false"
+46-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:15:13-37
+47            android:multiprocess="false" />
+47-->[net.grandcentrix.tray:tray:0.12.0] C:\Users\Royal Deluxe\.gradle\caches\transforms-2\files-2.1\ed506b2d8b7896602aaf4ce716d23451\jetified-tray-0.12.0\AndroidManifest.xml:16:13-41
+48    </application>
+49
+50</manifest>
