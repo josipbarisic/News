@@ -4,12 +4,20 @@
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\ic_my_news.xml"
     },
     {
-        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
-        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\menu\\main_menu.xml"
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avd_favorite.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\avd_favorite.xml"
     },
     {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout_article_list_item.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\article_list_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favorite_off.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\ic_favorite_off.xml"
     },
     {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -20,20 +28,20 @@
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\ic_news_logo.xml"
     },
     {
-        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\xml_backup_descriptor.xml.flat",
-        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\xml\\backup_descriptor.xml"
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avd_search.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\avd_search.xml"
     },
     {
-        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings.xml.flat",
-        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\ic_settings.xml"
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_article_drawable.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable-night\\article_drawable.xml"
     },
     {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favorites.xml.flat",
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\ic_favorites.xml"
     },
     {
-        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_news.xml.flat",
-        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\fragment_news.xml"
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_favorite_on.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\ic_favorite_on.xml"
     },
     {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
@@ -42,5 +50,33 @@
     {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\xml_keys.xml.flat",
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\xml\\keys.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_article_drawable.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\article_drawable.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_anim_favorite.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\anim_favorite.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_headlines.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\fragment_headlines.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\xml_backup_descriptor.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\xml\\backup_descriptor.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_news.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\fragment_news.xml"
     }
 ]

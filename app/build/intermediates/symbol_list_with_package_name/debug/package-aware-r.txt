@@ -48,6 +48,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+animator nav_default_enter_anim
+animator nav_default_exit_anim
+animator nav_default_pop_enter_anim
+animator nav_default_pop_exit_anim
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -796,8 +800,13 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color colorAccent
+color colorHeavyWhite
+color colorLightGray
+color colorLightWhite
 color colorPrimary
 color colorPrimaryDark
+color colorSpaceCadet
+color colorWhite
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
 color design_default_color_primary_dark
@@ -819,11 +828,8 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
-color heavyWhite
 color highlighted_text_material_dark
 color highlighted_text_material_light
-color lightGrey
-color lightWhite
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -879,7 +885,6 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
-color spaceCadet
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -888,7 +893,6 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
-color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1198,7 +1202,11 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable anim_favorite
+drawable article_drawable
+drawable avd_favorite
 drawable avd_hide_password
+drawable avd_search
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1214,6 +1222,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_favorite_off
+drawable ic_favorite_on
 drawable ic_favorites
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1310,6 +1320,8 @@ id all
 id always
 id animateToEnd
 id animateToStart
+id article_container
+id article_image
 id asConfigured
 id async
 id auto
@@ -1335,6 +1347,7 @@ id chains
 id checkbox
 id checked
 id chronometer
+id cl_article
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -1470,6 +1483,7 @@ id reverseSawtooth
 id right
 id right_icon
 id right_side
+id rv_news
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -1514,6 +1528,8 @@ id standard
 id start
 id startHorizontal
 id startVertical
+id state_off
+id state_on
 id staticLayout
 id staticPostLayout
 id status_bar_latest_event_content
@@ -1556,6 +1572,11 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_date
+id tv_description
+id tv_source
+id tv_source_name
+id tv_title
 id unchecked
 id uniform
 id unlabeled
@@ -1623,6 +1644,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout article_list_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1638,6 +1660,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_headlines
 layout fragment_news
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
@@ -1710,6 +1733,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_item
 string search_menu_title
+string source
 string sources_item
 string status_bar_notification_info_overflow
 string tray__authority

@@ -1,5 +1,7 @@
 package com.barisic.news.util
 
+import timber.log.Timber
+
 class RequestParams {
     companion object {
         var pageSize: Int = 100
@@ -20,6 +22,7 @@ class RequestParams {
             paramsMap["sortBy"] = sortBy
             paramsMap["pageSize"] = pageSize.toString()
             paramsMap["apiKey"] = KeyGenerator.getKey()
+            Timber.d(paramsMap["apiKey"])
             return paramsMap
         }
 

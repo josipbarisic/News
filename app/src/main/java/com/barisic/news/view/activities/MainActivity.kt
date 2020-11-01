@@ -20,8 +20,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         navController = findNavController(R.id.nav_host_fragment)
         bottom_navigation.setupWithNavController(navController)
+        bottom_navigation.itemIconTintList = null
 
         Timber.d(newsViewModel.query.value)
-
     }
 }

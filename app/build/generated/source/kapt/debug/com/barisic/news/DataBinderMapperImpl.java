@@ -6,6 +6,7 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
+import com.barisic.news.databinding.ArticleListItemBindingImpl;
 import com.barisic.news.databinding.FragmentNewsBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -18,11 +19,14 @@ import java.util.HashMap;
 import java.util.List;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final int LAYOUT_FRAGMENTNEWS = 1;
+  private static final int LAYOUT_ARTICLELISTITEM = 1;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+  private static final int LAYOUT_FRAGMENTNEWS = 2;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.barisic.news.R.layout.article_list_item, LAYOUT_ARTICLELISTITEM);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.barisic.news.R.layout.fragment_news, LAYOUT_FRAGMENTNEWS);
   }
 
@@ -35,6 +39,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         throw new RuntimeException("view must have a tag");
       }
       switch(localizedLayoutId) {
+        case  LAYOUT_ARTICLELISTITEM: {
+          if ("layout/article_list_item_0".equals(tag)) {
+            return new ArticleListItemBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for article_list_item is invalid. Received: " + tag);
+        }
         case  LAYOUT_FRAGMENTNEWS: {
           if ("layout/fragment_news_0".equals(tag)) {
             return new FragmentNewsBindingImpl(component, view);
@@ -86,18 +96,20 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(2);
+    static final SparseArray<String> sKeys = new SparseArray<String>(3);
 
     static {
-      sKeys.put(1, "NewsViewModel");
+      sKeys.put(1, "Article");
+      sKeys.put(2, "NewsViewModel");
       sKeys.put(0, "_all");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
+      sKeys.put("layout/article_list_item_0", com.barisic.news.R.layout.article_list_item);
       sKeys.put("layout/fragment_news_0", com.barisic.news.R.layout.fragment_news);
     }
   }

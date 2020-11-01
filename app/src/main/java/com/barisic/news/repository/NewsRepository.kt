@@ -18,7 +18,7 @@ class NewsRepository(private val newsApiService: NewsApiService) {
                     val response =
                         newsApiService.getNews(query, RequestParams.getEverythingRequestParams())
                     withContext(Dispatchers.Main) {
-                        value = response.articles
+                        value = response.articles.distinctBy { it.url } as ArrayList<Article>
                     }
                 }
             }

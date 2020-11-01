@@ -16,3 +16,4 @@
 /gradle/
 /app/build/
 /.idea/
+/app/src/main/res/xml/keys.xml

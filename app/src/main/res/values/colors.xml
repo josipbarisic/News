@@ -4,9 +4,9 @@
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#484848</color>
 
-    <color name="spaceCadet">#091521</color>
-    <color name="lightGrey">#777777</color>
-    <color name="lightWhite">#BBBBBB</color>
-    <color name="heavyWhite">#EEFFFF</color>
-    <color name="white">#FFFFFF</color>
+    <color name="colorSpaceCadet">#091521</color>
+    <color name="colorLightGray">#777777</color>
+    <color name="colorLightWhite">#FEFEFE</color>
+    <color name="colorHeavyWhite">#EEFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
 </resources>

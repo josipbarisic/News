@@ -8,8 +8,8 @@ import com.barisic.news.model.Article
 import com.barisic.news.repository.NewsRepository
 
 class NewsViewModel(private val newsRepo: NewsRepository) : ViewModel() {
-    val query = MutableLiveData<String>()
+    val query = MutableLiveData<String>("Election")
     val result: LiveData<ArrayList<Article>> = Transformations.switchMap(query) {
-        newsRepo.getNews(it)
+        if (it.length > 4) newsRepo.getNews(it) else null
     }
 }

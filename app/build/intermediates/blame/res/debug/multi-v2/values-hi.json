@@ -4,7 +4,7 @@
             "outputFile": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hi\\values-hi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Royal Deluxe\\.gradle\\caches\\transforms-2\\files-2.1\\a541551b3006b352739eb213e56115f5\\navigation-ui-2.3.0\\res\\values-hi\\values-hi.xml",
+                    "source": "C:\\Users\\Royal Deluxe\\.gradle\\caches\\transforms-2\\files-2.1\\1f371c043cee219c0962baaccfc0d57d\\navigation-ui-2.3.1\\res\\values-hi\\values-hi.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

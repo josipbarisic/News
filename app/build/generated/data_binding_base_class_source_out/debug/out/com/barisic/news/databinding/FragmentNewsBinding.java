@@ -9,17 +9,23 @@ import androidx.annotation.Nullable;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
+import androidx.recyclerview.widget.RecyclerView;
 import com.barisic.news.R;
 import com.barisic.news.viewmodel.NewsViewModel;
 import java.lang.Deprecated;
 import java.lang.Object;
 
 public abstract class FragmentNewsBinding extends ViewDataBinding {
+  @NonNull
+  public final RecyclerView rvNews;
+
   @Bindable
   protected NewsViewModel mNewsViewModel;
 
-  protected FragmentNewsBinding(Object _bindingComponent, View _root, int _localFieldCount) {
+  protected FragmentNewsBinding(Object _bindingComponent, View _root, int _localFieldCount,
+      RecyclerView rvNews) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.rvNews = rvNews;
   }
 
   public abstract void setNewsViewModel(@Nullable NewsViewModel NewsViewModel);
