@@ -1,18 +1,19 @@
-<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:aapt="http://schemas.android.com/aapt">
     <aapt:attr name="android:drawable">
         <vector
             android:name="vector"
-            android:width="42dp"
-            android:height="42dp"
+            android:width="24dp"
+            android:height="24dp"
             android:viewportWidth="24"
             android:viewportHeight="24">
             <group android:name="group">
                 <path
-                    android:name="heart"
-                    android:fillColor="#000"
+                    android:name="path"
                     android:pathData="M 12 21.35 L 10.55 20.03 C 5.4 15.36 2 12.28 2 8.5 C 2 5.42 4.42 3 7.5 3 C 9.24 3 10.91 3.81 12 5.09 C 13.09 3.81 14.76 3 16.5 3 C 19.58 3 22 5.42 22 8.5 C 22 12.28 18.6 15.36 13.45 20.04 L 12 21.35 Z"
-                    android:strokeWidth="1" />
+                    android:fillColor="#091530"
+                    android:strokeWidth="1"/>
             </group>
         </vector>
     </aapt:attr>
@@ -20,52 +21,45 @@
         <aapt:attr name="android:animation">
             <set>
                 <objectAnimator
-                    android:duration="500"
-                    android:interpolator="@android:interpolator/fast_out_slow_in"
                     android:propertyName="pivotX"
+                    android:duration="1000"
                     android:valueFrom="12"
                     android:valueTo="12"
-                    android:valueType="floatType" />
-                <objectAnimator
-                    android:duration="500"
-                    android:interpolator="@android:interpolator/fast_out_slow_in"
-                    android:propertyName="pivotY"
-                    android:valueFrom="12"
-                    android:valueTo="12"
-                    android:valueType="floatType" />
-                <!--<objectAnimator
-                    android:propertyName="rotation"
-                    android:duration="500"
-                    android:valueFrom="0"
-                    android:valueTo="360"
                     android:valueType="floatType"
-                    android:interpolator="@android:anim/decelerate_interpolator"/>-->
+                    android:interpolator="@android:anim/linear_interpolator"/>
                 <objectAnimator
-                    android:duration="500"
-                    android:interpolator="@android:anim/bounce_interpolator"
+                    android:propertyName="pivotY"
+                    android:duration="1000"
+                    android:valueFrom="12"
+                    android:valueTo="12"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/linear_interpolator"/>
+                <objectAnimator
                     android:propertyName="scaleX"
-                    android:valueFrom="0.5"
-                    android:valueTo="1.2"
-                    android:valueType="floatType" />
+                    android:duration="1000"
+                    android:valueFrom="0.3"
+                    android:valueTo="1"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/bounce_interpolator"/>
                 <objectAnimator
-                    android:duration="500"
-                    android:interpolator="@android:anim/bounce_interpolator"
                     android:propertyName="scaleY"
-                    android:valueFrom="0.5"
-                    android:valueTo="1.2"
-                    android:valueType="floatType" />
+                    android:duration="1000"
+                    android:valueFrom="0.3"
+                    android:valueTo="1"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/bounce_interpolator"/>
             </set>
         </aapt:attr>
     </target>
-    <!--<target android:name="heart">
+    <target android:name="path">
         <aapt:attr name="android:animation">
             <objectAnimator
-                android:duration="500"
-                android:interpolator="@android:anim/bounce_interpolator"
                 android:propertyName="fillColor"
-                android:valueFrom="#441100"
-                android:valueTo="#CC5544"
-                android:valueType="colorType" />
+                android:duration="1000"
+                android:valueFrom="#AABBCC"
+                android:valueTo="#091530"
+                android:valueType="colorType"
+                android:interpolator="@android:anim/bounce_interpolator"/>
         </aapt:attr>
-    </target>-->
+    </target>
 </animated-vector>

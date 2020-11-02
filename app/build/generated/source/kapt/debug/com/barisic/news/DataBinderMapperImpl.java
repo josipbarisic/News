@@ -7,6 +7,7 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.barisic.news.databinding.ArticleListItemBindingImpl;
+import com.barisic.news.databinding.ArticleListItemBindingNightImpl;
 import com.barisic.news.databinding.FragmentNewsBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -40,6 +41,9 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       }
       switch(localizedLayoutId) {
         case  LAYOUT_ARTICLELISTITEM: {
+          if ("layout-night/article_list_item_0".equals(tag)) {
+            return new ArticleListItemBindingNightImpl(component, view);
+          }
           if ("layout/article_list_item_0".equals(tag)) {
             return new ArticleListItemBindingImpl(component, view);
           }
@@ -106,9 +110,10 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
 
     static {
+      sKeys.put("layout-night/article_list_item_0", com.barisic.news.R.layout.article_list_item);
       sKeys.put("layout/article_list_item_0", com.barisic.news.R.layout.article_list_item);
       sKeys.put("layout/fragment_news_0", com.barisic.news.R.layout.fragment_news);
     }

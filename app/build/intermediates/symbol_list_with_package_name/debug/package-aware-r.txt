@@ -805,7 +805,10 @@ color colorLightGray
 color colorLightWhite
 color colorPrimary
 color colorPrimaryDark
+color colorSkyGrey
+color colorSpace
 color colorSpaceCadet
+color colorSpaceCadetLine
 color colorWhite
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
@@ -1203,11 +1206,17 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable anim_favorite
+drawable anim_news
+drawable anim_search
+drawable anim_settings
 drawable article_drawable
 drawable avd_favorite
 drawable avd_hide_password
+drawable avd_news
 drawable avd_search
+drawable avd_settings
 drawable avd_show_password
+drawable bottom_nav_drawable
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1222,13 +1231,11 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable ic_favorite_off
-drawable ic_favorite_on
-drawable ic_favorites
+drawable ic_favorite
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable ic_my_news
+drawable ic_news
 drawable ic_news_logo
 drawable ic_search
 drawable ic_settings
@@ -2360,4 +2367,3 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
 xml backup_descriptor
-xml keys
