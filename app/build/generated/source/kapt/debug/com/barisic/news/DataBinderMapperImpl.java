@@ -8,6 +8,7 @@ import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.barisic.news.databinding.ArticleListItemBindingImpl;
 import com.barisic.news.databinding.ArticleListItemBindingNightImpl;
+import com.barisic.news.databinding.BottomSheetWebViewDialogBindingImpl;
 import com.barisic.news.databinding.FragmentNewsBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -22,12 +23,15 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ARTICLELISTITEM = 1;
 
-  private static final int LAYOUT_FRAGMENTNEWS = 2;
+  private static final int LAYOUT_BOTTOMSHEETWEBVIEWDIALOG = 2;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
+  private static final int LAYOUT_FRAGMENTNEWS = 3;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.barisic.news.R.layout.article_list_item, LAYOUT_ARTICLELISTITEM);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.barisic.news.R.layout.bottom_sheet_web_view_dialog, LAYOUT_BOTTOMSHEETWEBVIEWDIALOG);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.barisic.news.R.layout.fragment_news, LAYOUT_FRAGMENTNEWS);
   }
 
@@ -48,6 +52,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ArticleListItemBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for article_list_item is invalid. Received: " + tag);
+        }
+        case  LAYOUT_BOTTOMSHEETWEBVIEWDIALOG: {
+          if ("layout/bottom_sheet_web_view_dialog_0".equals(tag)) {
+            return new BottomSheetWebViewDialogBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for bottom_sheet_web_view_dialog is invalid. Received: " + tag);
         }
         case  LAYOUT_FRAGMENTNEWS: {
           if ("layout/fragment_news_0".equals(tag)) {
@@ -110,11 +120,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
 
     static {
       sKeys.put("layout-night/article_list_item_0", com.barisic.news.R.layout.article_list_item);
       sKeys.put("layout/article_list_item_0", com.barisic.news.R.layout.article_list_item);
+      sKeys.put("layout/bottom_sheet_web_view_dialog_0", com.barisic.news.R.layout.bottom_sheet_web_view_dialog);
       sKeys.put("layout/fragment_news_0", com.barisic.news.R.layout.fragment_news);
     }
   }

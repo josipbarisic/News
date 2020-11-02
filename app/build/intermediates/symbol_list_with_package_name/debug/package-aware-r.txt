@@ -1231,12 +1231,12 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_app_logo
 drawable ic_favorite
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_news
-drawable ic_news_logo
 drawable ic_search
 drawable ic_settings
 drawable mtrl_snackbar_background
@@ -1317,6 +1317,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_nav_news_to_nav_bottom_web_view_dialog
 id action_text
 id actions
 id activity_chooser_view_content
@@ -1449,6 +1450,7 @@ id motion_base
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id nav_bottom_web_view_dialog
 id nav_controller_view_tag
 id nav_favorites
 id nav_graph
@@ -1592,6 +1594,7 @@ id useLogo
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
+id web_view
 id withText
 id wrap
 id wrap_content
@@ -1652,6 +1655,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout article_list_item
+layout bottom_sheet_web_view_dialog
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

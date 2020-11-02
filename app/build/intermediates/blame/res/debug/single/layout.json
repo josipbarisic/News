@@ -4,6 +4,10 @@
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\article_list_item.xml"
     },
     {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bottom_sheet_web_view_dialog.xml",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\bottom_sheet_web_view_dialog.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_news.xml",
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\fragment_news.xml"
     }

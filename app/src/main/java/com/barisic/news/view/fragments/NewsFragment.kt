@@ -14,7 +14,6 @@ import com.barisic.news.adapter.NewsRecyclerViewAdapter
 import com.barisic.news.databinding.FragmentNewsBinding
 import com.barisic.news.model.Article
 import com.barisic.news.viewmodel.NewsViewModel
-import timber.log.Timber
 
 class NewsFragment : Fragment() {
     private lateinit var dataBinding: FragmentNewsBinding
@@ -22,8 +21,7 @@ class NewsFragment : Fragment() {
 
     private val resultObserver = Observer<ArrayList<Article>> {
         it?.let {
-            if (dataBinding.rvNews.adapter == null)
-                setupRecyclerView(it)
+            if (dataBinding.rvNews.adapter == null) setupRecyclerView(it)
         }
     }
 
@@ -34,8 +32,6 @@ class NewsFragment : Fragment() {
     ): View? {
         dataBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_news, container, false)
 
-        Timber.d("onCreateView")
-
         return dataBinding.root
     }
 
@@ -43,34 +39,12 @@ class NewsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         dataBinding.lifecycleOwner = viewLifecycleOwner
         dataBinding.newsViewModel = viewModel
-        Timber.d("onViewCreated")
+
         viewModel.result.observe(viewLifecycleOwner, resultObserver)
     }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        Timber.d("onCreate")
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Timber.d("onStop")
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Timber.d("onResume")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Timber.d("onPause")
-//        viewModel.result.removeObservers(viewLifecycleOwner)
-    }
-
     private fun setupRecyclerView(news: ArrayList<Article>) {
-        Timber.d("setupRecyclerView")
-        dataBinding.rvNews.adapter = NewsRecyclerViewAdapter(news)
+        dataBinding.rvNews.adapter = NewsRecyclerViewAdapter(news, viewModel.bottomWebViewUrl)
         dataBinding.rvNews.setItemViewCacheSize(5)
         dataBinding.rvNews.layoutManager =
             LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)

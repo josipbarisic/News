@@ -9,7 +9,12 @@
         android:id="@id/nav_news"
         android:name="com.barisic.news.view.fragments.NewsFragment"
         android:label="fragment_news"
-        tools:layout="@layout/fragment_news" />
+        tools:layout="@layout/fragment_news">
+        <action
+            android:id="@+id/action_nav_news_to_nav_bottom_web_view_dialog"
+            app:destination="@id/nav_bottom_web_view_dialog"
+            app:popUpTo="@id/nav_news" />
+    </fragment>
     <fragment
         android:id="@id/nav_search"
         android:name="com.barisic.news.view.fragments.HeadlinesFragment"
@@ -25,4 +30,9 @@
         android:name="com.barisic.news.view.fragments.HeadlinesFragment"
         android:label="fragment_headlines"
         tools:layout="@layout/fragment_headlines" />
+    <dialog
+        android:id="@+id/nav_bottom_web_view_dialog"
+        android:name="com.barisic.news.view.fragments.BottomSheetWebViewFragment"
+        android:label="BottomSheetWebViewFragment"
+        tools:layout="@layout/bottom_sheet_web_view_dialog" />
 </navigation>
