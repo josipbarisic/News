@@ -31,27 +31,21 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="50dp"
+            android:padding="10dp"
             android:visibility="@{NewsViewModel.showArticleContent ? View.GONE : View.VISIBLE}"
             app:layout_constraintTop_toTopOf="parent">
 
             <ProgressBar
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:visibility="@{NewsViewModel.showArticleContent ? View.GONE : View.VISIBLE}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <androidx.appcompat.widget.AppCompatImageView
-                android:layout_width="75dp"
-                android:layout_height="75dp"
-                android:src="@drawable/ic_app_logo"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"/>
+                android:indeterminate="true"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="@color/colorSkyGrey"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

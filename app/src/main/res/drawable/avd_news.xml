@@ -12,9 +12,9 @@
                 <path
                     android:name="d5gkrnd9wg"
                     android:pathData="M 44.11 44.04 C 47.64 47.62 49.61 49.6 50 50 L 6.24 50 C 2.79 50 0 47.52 0 44.46 L 0 0 L 44.11 0 L 44.11 47.41"
-                    android:strokeColor="#091530"
+                    android:strokeColor="#787878"
                     android:fillColor="#f1f1f1"
-                    android:strokeWidth="3"/>
+                    android:strokeWidth="2"/>
             </group>
             <group android:name="text">
                 <path
@@ -230,7 +230,7 @@
                     android:propertyName="strokeColor"
                     android:duration="500"
                     android:valueFrom="#AABBCC"
-                    android:valueTo="#091530"
+                    android:valueTo="#787878"
                     android:valueType="colorType"
                     android:interpolator="@android:anim/anticipate_interpolator"/>
                 <objectAnimator
