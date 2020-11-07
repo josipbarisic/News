@@ -25,12 +25,5 @@ class RequestParams {
             Timber.d(paramsMap["apiKey"])
             return paramsMap
         }
-
-        fun getSourcesRequestParams(): Map<String, String> {
-            val paramsMap = HashMap<String, String>()
-            paramsMap["country"] = source_country
-            paramsMap["apiKey"] = KeyGenerator.getKey()
-            return paramsMap
-        }
     }
 }

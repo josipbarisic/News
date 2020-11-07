@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import com.barisic.news.model.Article
+import com.barisic.news.model.Source
 import com.barisic.news.repository.NewsRepository
 
 class NewsViewModel(private val newsRepo: NewsRepository) : ViewModel() {
@@ -14,4 +15,6 @@ class NewsViewModel(private val newsRepo: NewsRepository) : ViewModel() {
     }
     val bottomWebViewUrl = MutableLiveData<String?>()
     val showArticleContent = MutableLiveData(false)
+
+    val sourcesResult: LiveData<ArrayList<Source>> = newsRepo.getSources()
 }

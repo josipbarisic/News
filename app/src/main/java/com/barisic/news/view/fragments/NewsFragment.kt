@@ -14,6 +14,7 @@ import com.barisic.news.adapter.NewsRecyclerViewAdapter
 import com.barisic.news.databinding.FragmentNewsBinding
 import com.barisic.news.model.Article
 import com.barisic.news.viewmodel.NewsViewModel
+import timber.log.Timber
 
 class NewsFragment : Fragment() {
     private lateinit var dataBinding: FragmentNewsBinding
@@ -41,6 +42,12 @@ class NewsFragment : Fragment() {
         dataBinding.newsViewModel = viewModel
 
         viewModel.result.observe(viewLifecycleOwner, resultObserver)
+
+        viewModel.sourcesResult.observe(viewLifecycleOwner, { sources ->
+            sources.forEach {
+                Timber.tag("SOURCES_RESPONSE").d("SOURCE -> ${it.name} ${it.url}")
+            }
+        })
     }
 
     private fun setupRecyclerView(news: ArrayList<Article>) {

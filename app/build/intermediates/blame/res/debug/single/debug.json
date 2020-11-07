@@ -12,12 +12,12 @@
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\ic_search.xml"
     },
     {
-        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_search.xml.flat",
-        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable-night\\ic_search.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout_bottom_sheet_web_view_dialog.xml.flat",
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\bottom_sheet_web_view_dialog.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_search.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable-night\\ic_search.xml"
     },
     {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout_article_list_item.xml.flat",
@@ -48,12 +48,12 @@
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable-night\\avd_favorite.xml"
     },
     {
-        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_article_drawable.xml.flat",
-        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\article_drawable.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avd_settings.xml.flat",
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\avd_settings.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_article_drawable.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\article_drawable.xml"
     },
     {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_ic_settings.xml.flat",
