@@ -1,6 +1,7 @@
 package com.barisic.news.util
 
 const val NEWS_API_URL = "https://newsapi.org/v2/"
+const val LOGO_SCRAPER = "https://logo.clearbit.com/"
 
 //ENDPOINTS
 const val TOP_HEADLINES = "top-headlines"

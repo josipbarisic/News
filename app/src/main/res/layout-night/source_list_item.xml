@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="Source"
+            type="com.barisic.news.model.Source" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/article_drawable">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/source_logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/source_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@{Source.name}"
+            android:textColor="@color/colorSkyGrey"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@id/source_logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/source_logo"
+            app:layout_constraintTop_toTopOf="@id/source_logo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_anim_news.xml.flat",
-        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\anim_news.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable-night_avd_search.xml.flat",
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable-night\\avd_search.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_anim_news.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\anim_news.xml"
     },
     {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
@@ -76,6 +76,10 @@
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable-night\\ic_news.xml"
     },
     {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout_source_list_item.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\source_list_item.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout-night_article_list_item.xml.flat",
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout-night\\article_list_item.xml"
     },
@@ -108,8 +112,16 @@
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\drawable\\anim_settings.xml"
     },
     {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sources.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\fragment_sources.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\menu_main_menu.xml.flat",
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\layout-night_source_list_item.xml.flat",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout-night\\source_list_item.xml"
     },
     {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_app_logo.xml.flat",

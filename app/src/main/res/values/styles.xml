@@ -9,4 +9,10 @@
 
     <dimen name="design_bottom_navigation_height" tools:override="true">60dp</dimen>
     <dimen name="design_bottom_navigation_active_text_size" tools:override="true">0sp</dimen>
+
+    <style name="SourceNameStyle">
+        <item name="android:textColor">@color/colorSpaceCadetLine</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
 </resources>

@@ -14,15 +14,14 @@ import com.barisic.news.adapter.NewsRecyclerViewAdapter
 import com.barisic.news.databinding.FragmentNewsBinding
 import com.barisic.news.model.Article
 import com.barisic.news.viewmodel.NewsViewModel
-import timber.log.Timber
 
 class NewsFragment : Fragment() {
-    private lateinit var dataBinding: FragmentNewsBinding
+    private lateinit var binding: FragmentNewsBinding
     private val viewModel: NewsViewModel by activityViewModels()
 
     private val resultObserver = Observer<ArrayList<Article>> {
         it?.let {
-            if (dataBinding.rvNews.adapter == null) setupRecyclerView(it)
+            if (binding.rvNews.adapter == null) setupRecyclerView(it)
         }
     }
 
@@ -31,29 +30,23 @@ class NewsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        dataBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_news, container, false)
+        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_news, container, false)
 
-        return dataBinding.root
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        dataBinding.lifecycleOwner = viewLifecycleOwner
-        dataBinding.newsViewModel = viewModel
+        binding.lifecycleOwner = viewLifecycleOwner
+        binding.newsViewModel = viewModel
 
         viewModel.result.observe(viewLifecycleOwner, resultObserver)
-
-        viewModel.sourcesResult.observe(viewLifecycleOwner, { sources ->
-            sources.forEach {
-                Timber.tag("SOURCES_RESPONSE").d("SOURCE -> ${it.name} ${it.url}")
-            }
-        })
     }
 
     private fun setupRecyclerView(news: ArrayList<Article>) {
-        dataBinding.rvNews.adapter = NewsRecyclerViewAdapter(news, viewModel.bottomWebViewUrl)
-        dataBinding.rvNews.setItemViewCacheSize(5)
-        dataBinding.rvNews.layoutManager =
+        binding.rvNews.adapter = NewsRecyclerViewAdapter(news, viewModel.bottomWebViewUrl)
+        binding.rvNews.setItemViewCacheSize(5)
+        binding.rvNews.layoutManager =
             LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
     }
 }

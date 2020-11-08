@@ -13,12 +13,12 @@ class NewsRecyclerViewAdapter(
     private val bottomWebViewUrl: MutableLiveData<String?>
 ) :
     RecyclerView.Adapter<NewsRecyclerViewAdapter.ArticleViewHolder>() {
-    private lateinit var dataBinding: ArticleListItemBinding
+    private lateinit var binding: ArticleListItemBinding
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArticleViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        dataBinding = ArticleListItemBinding.inflate(inflater, parent, false)
-        return ArticleViewHolder(dataBinding)
+        binding = ArticleListItemBinding.inflate(inflater, parent, false)
+        return ArticleViewHolder(binding)
     }
 
     override fun onBindViewHolder(holder: ArticleViewHolder, position: Int) {

@@ -10,6 +10,9 @@ import com.barisic.news.databinding.ArticleListItemBindingImpl;
 import com.barisic.news.databinding.ArticleListItemBindingNightImpl;
 import com.barisic.news.databinding.BottomSheetWebViewDialogBindingImpl;
 import com.barisic.news.databinding.FragmentNewsBindingImpl;
+import com.barisic.news.databinding.FragmentSourcesBindingImpl;
+import com.barisic.news.databinding.SourceListItemBindingImpl;
+import com.barisic.news.databinding.SourceListItemBindingNightImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -27,12 +30,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_FRAGMENTNEWS = 3;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
+  private static final int LAYOUT_FRAGMENTSOURCES = 4;
+
+  private static final int LAYOUT_SOURCELISTITEM = 5;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(5);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.barisic.news.R.layout.article_list_item, LAYOUT_ARTICLELISTITEM);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.barisic.news.R.layout.bottom_sheet_web_view_dialog, LAYOUT_BOTTOMSHEETWEBVIEWDIALOG);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.barisic.news.R.layout.fragment_news, LAYOUT_FRAGMENTNEWS);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.barisic.news.R.layout.fragment_sources, LAYOUT_FRAGMENTSOURCES);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.barisic.news.R.layout.source_list_item, LAYOUT_SOURCELISTITEM);
   }
 
   @Override
@@ -64,6 +73,21 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentNewsBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_news is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTSOURCES: {
+          if ("layout/fragment_sources_0".equals(tag)) {
+            return new FragmentSourcesBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_sources is invalid. Received: " + tag);
+        }
+        case  LAYOUT_SOURCELISTITEM: {
+          if ("layout-night/source_list_item_0".equals(tag)) {
+            return new SourceListItemBindingNightImpl(component, view);
+          }
+          if ("layout/source_list_item_0".equals(tag)) {
+            return new SourceListItemBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for source_list_item is invalid. Received: " + tag);
         }
       }
     }
@@ -110,23 +134,28 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(3);
+    static final SparseArray<String> sKeys = new SparseArray<String>(5);
 
     static {
       sKeys.put(1, "Article");
       sKeys.put(2, "NewsViewModel");
+      sKeys.put(3, "Source");
+      sKeys.put(4, "SourcesViewModel");
       sKeys.put(0, "_all");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(7);
 
     static {
       sKeys.put("layout-night/article_list_item_0", com.barisic.news.R.layout.article_list_item);
       sKeys.put("layout/article_list_item_0", com.barisic.news.R.layout.article_list_item);
       sKeys.put("layout/bottom_sheet_web_view_dialog_0", com.barisic.news.R.layout.bottom_sheet_web_view_dialog);
       sKeys.put("layout/fragment_news_0", com.barisic.news.R.layout.fragment_news);
+      sKeys.put("layout/fragment_sources_0", com.barisic.news.R.layout.fragment_sources);
+      sKeys.put("layout-night/source_list_item_0", com.barisic.news.R.layout.source_list_item);
+      sKeys.put("layout/source_list_item_0", com.barisic.news.R.layout.source_list_item);
     }
   }
 }

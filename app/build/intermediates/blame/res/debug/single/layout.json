@@ -10,5 +10,13 @@
     {
         "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_news.xml",
         "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\fragment_news.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\source_list_item.xml",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\source_list_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioApps\\News\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sources.xml",
+        "source": "D:\\AndroidStudioApps\\News\\app\\src\\main\\res\\layout\\fragment_sources.xml"
     }
 ]
